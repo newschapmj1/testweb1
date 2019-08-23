@@ -9,5 +9,36 @@
 <body>
     <h1>testweb1</h1>
     <h2>header2</h2>
+
+    <script>
+var requestURL = 'https://newschapmj1.github.io/testweb1/test1.json'
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var walks = request.response;
+  //populateHeader(walks);
+  //showWalk(walks);
+  var obj = JSON.parse(walks);
+  console.log(obj);
+}
+
+/*
+function populateHeader(jsonObj) {
+  var myH1 = document.createElement('h1');
+  myH1.textContent = jsonObj['squadName'];
+  header.appendChild(myH1);
+
+  var myPara = document.createElement('p');
+  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+  header.appendChild(myPara);
+}
+
+*/$
+
+    </script>    
 </body>
 </html>
