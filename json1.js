@@ -12,5 +12,5 @@ request.onload = function() {
   //populateHeader(walks);
   //showWalk(walks);
   //var obj = JSON.parse(walks);
-  console.log(walks[0].Detail);
+  console.log(walks[0]);
 }
