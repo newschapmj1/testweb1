@@ -13,5 +13,6 @@ request.onload = function() {
   //showWalk(walks);
   //var obj = JSON.parse(walks);
   console.log(walks[0]);
-  console.log(walks[0].Detail)
+  console.log(walks[0].Detail);
+  console.log(walks[1].Detail);
 }
