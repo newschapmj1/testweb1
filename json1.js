@@ -8,6 +8,7 @@ request.send();
 
 request.onload = function() {
   var walks = request.response;
+  console.log(walks);
   //populateHeader(walks);
   //showWalk(walks);
   var obj = JSON.parse(walks);
