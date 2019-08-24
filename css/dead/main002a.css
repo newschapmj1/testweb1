@@ -1,0 +1,47 @@
+body { font-family: font-family: 'Source Sans Pro',Arial, Helvetica, sans-serif;  font-size: 17px; color: #006633; background-color: #FFFFCC; line-height:145%}
+
+td {  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; font-size: 14px; color: #006633}
+a {  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; font-size: 17px; font-style: normal; color: #006633; font-weight: bold}
+a:hover {
+	color: #00CC33;
+}
+h2 {line-height:145%;}
+
+.redcolour
+{
+color: #C6454D;
+}
+
+#wrapper {
+	text-align: left;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#leftColumn {
+	float: left;
+	width: 200px;
+	margin-top: 40px;
+	font-size: larger;
+	font-weight: bold;
+}
+#rightColumn {
+	float: right;
+	display: inline;
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logo {
+	height: 106px;
+	padding-bottom: 0px;
+	width: 716px;
+	clear: none;
+	float: none;
+	margin-right: 22px;
+	margin-left: 22px;
+	margin-top: 10px;
+}

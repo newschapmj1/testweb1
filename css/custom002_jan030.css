@@ -1,0 +1,61 @@
+body,p{font-size:17px;line-height:145%}body,hr{color:#063}.dropdown-menu,.navbar-default,body{background-color:#FFC}h1,h2{font-family:Merriweather,serif,Times}body,div,h3,h4,h5,h6,p{font-family:'Open Sans',Helvetica,sans-serif,Arial}hr{display:block;border-style:inset;border-width:1px;margin:.5em auto;margin:.5em auto}@media (min-width:768px){.navbar-default{float:none;margin:0 auto;display:table;table-layout:fixed;color:#063;background-color:#FFC}.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:#C6454D}}#logo003,.dropdown-menu,.dropdown-menu>li>a,.nav>li,.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a,.ul{color:#063}.navbar{border:none}#logo003{font-family:Merriweather;font-size:18px;font-weight:900;text-align:center}.col-sm-9,.col-xs-9,.row,.text-left{text-align:left}.redcolor{color:#C6454D}#logo img{display:block;margin-left:auto;margin-right:auto}#logo2{margin:0 auto}.center-block{display:block;margin-left:auto;margin-right:auto}.img-responsive{display:block;height:auto;max-width:100%;margin:0 auto}#galleria,#gallery{width:100%;margin:0 auto;max-width:920px}.text-right{text-align:right}.text-center{text-align:center}
+/*	p {background-color:white;} */
+	p {background-color:rgba(255,255,192,0.75);
+		padding-left:10px;
+		padding-right:10px;}
+.background-image {
+  position: relative;
+  background-color:#FFC;
+  
+}
+.text {
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 40%;                         /* vertical alignment */
+    transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;
+                                      explanation: https://stackoverflow.com/q/36817249 */
+	background-color: rgb(255,255,255);
+}
+/* 480, 768  980 */
+
+
+@media only screen and (min-width: 769px) {
+.bgimage
+{
+	background-image:  url("https://redbridgeramblers.org.uk/css/images/merge003a_980.jpg");                
+  background-color: transparent;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center top; 
+  opacity : 0.75;
+  background-color: #ffc;
+}
+}
+
+@media only screen and (min-width: 480px) {
+.bgimage
+{
+	background-image:  url("https://redbridgeramblers.org.uk/css/images/merge003a_768.jpg");                
+  background-color: transparent;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center top; 
+  opacity : 0.75;
+  background-color: #ffc;
+}
+}
+
+@media only screen and (max-width: 479px) {
+.bgimage
+{
+	background-image:  url("https://redbridgeramblers.org.uk/css/images/merge003a_480.jpg");                
+  background-color: transparent;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center top; 
+  opacity : 0.75;
+  background-color: #ffc;
+}
+}
+
+

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Redbridge Ramblers, Walks Programme</title>
+    <meta name="Description" content="A list of walks with Redbridge Ramblers" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+    <link rel="stylesheet" href="bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom002_jan15.css" type="text/css" />
+    <!--<link rel="stylesheet" href="css/all.css" type="text/css"/>  -->
+    <!-- <link href='%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%3A400%2C900%7COpen%2BSans' rel='stylesheet' type='text/css'> -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,900|Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- <script src="js/all.js"></script> -->
+    <script src="js/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+
+
+
+
+    <style>
+        @media only screen and (max-width: 499px) {
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    background-color: rgba(0, 6, 3, 0.1);
+    padding: 2px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 500px) {
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto minmax(20px, 140px) auto auto;
+    grid-gap: 2px;
+    background-color:rgba(0,6,3,0.1);
+    padding: 2px;               
+}
+}
+
+      @media only screen and (max-width: 499px) {
+/* background: 4 divs one shade, next 4 divs another shade */
+          .grid-container  div:nth-of-type(8n-0) {
+              background-color:#fafadb;
+            }
+
+            .grid-container   div:nth-of-type(8n-1) {
+            background-color:#fafadb;
+            }           
+
+            .grid-container   div:nth-of-type(8n-2) {
+            background-color:#fafadb;
+            }   
+            
+            .grid-container   div:nth-of-type(8n-3) {
+            background-color:#fafadb;
+            }
+
+            /*2nd shade*/
+
+            .grid-container   div:nth-of-type(8n-4) {
+                background-color:#ffffcc;
+              }
+  
+              .grid-container   div:nth-of-type(8n-5) {
+              background-color:#ffffcc;
+              }           
+  
+              .grid-container   div:nth-of-type(8n-6) {
+              background-color:#ffffcc;
+              }   
+              
+              .grid-container   div:nth-of-type(8n-7) {
+              background-color:#ffffcc;
+              }
+            }
+
+
+
+@media only screen and (min-width: 500px) {
+                  .grid-container  div {
+                  background-color:#ffffcc;
+                }
+            }
+
+
+        .grid-container>div {
+            background-color: #ffffcc;
+            text-align: left;
+            padding: 2px 0;
+        }
+
+        /* @media print { */
+
+        body,
+   
+        p {
+            margin: 2px;
+        }
+
+        .wrapper {
+            max-width:920px;
+            margin:auto;
+        }
+
+        .col-sm-2,
+        col-sm-6 {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .container
+        {padding-left:5px;
+        padding-right:5px;}
+    </style>
+</head>
+
+<body>
+
+<script src="js/analytics.js"></script>
+
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+	 <a class="navbar-brand" href="index.php">Home</a>
+   </div>
+
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+    <!-- <li><a href="index.php">Home</a>  -->
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+    		<li><a href="about.php">About Us</a></li>
+            <li><a href="nonmembers.php">Information for non members</a></li>
+            <li><a href="join.php">How to join</a></li>
+            <li><a href="history.php">How we got started</a></li>
+            <li><a href="websiteinfo.php">Website information</a></li>
+        </ul>
+     </li>
+      <li><a href="walks.php">Walks</a></li>
+      <li><a href="walksmap.php">Walks Map</a></li>
+      <li><a href="social.php">Social Events</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Photos
+                            <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+							<li>2019</li>
+                            <li><a href="https://www.flickr.com/gp/132833839@N02/cHE2q7">General 2019</a></li>         
+                            <li>2018</li>
+                            <li><a href="https://www.flickr.com/gp/132833839@N02/60Qc6y">General 2018</a></li>            
+                        
+                    	      <li>2017</li>
+              <li><a href="https://www.flickr.com/gp/132833839@N02/qJv4tf">General 2017, Nov 27 2017</a></li>            
+
+              <li><a href="https://www.flickr.com/gp/132833839@N02/648642">Walthamstow Marshes, Nov 25 2017</a></li> 
+              <li><a href="https://www.flickr.com/gp/132833839@N02/AbD7r6">Capital Ring Nov 2 2017</a></li> 
+              <li><a href="https://www.flickr.com/gp/132833839@N02/Afc99y">25th Anniv Steamer Trip, Sep 23 2017</a></li>       
+						  <li><a href="https://www.flickr.com/gp/132833839@N02/6Li5ew">Snaresbrook I, Aug 7 2017</a></li>
+						  <li><a href="https://www.flickr.com/gp/132833839@N02/4rUw7A">Snaresbrook II, Aug 7 2017</a></li>
+						  <li><a href="https://www.flickr.com/gp/132833839@N02/7ZZ501">Week of walks, Aug 5-11 2017</a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/wj7sf9">Weston-super-Mare I, Apr 2017</a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/71RcLL">Weston-super-Mare II, Apr 2017</a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/011wjx">East London -Fairlop station to Wanstead, Apr 22 2017</a></li>
+                          <li>2016</li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/6H4cAn">Peak District 2016</a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/ZxisjA">Bournemouth April 2016</a></li>
+                          <li>2015</li>
+                          <li><a href="http://www.flickr.com/photos/redbridgerambler/sets/">Steven Muster </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/24FLMW/">Isle of Wight April 2015 I </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/3Rchk0/">Isle of Wight April 2015 II </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/3oRmV8/">Walk Wansted Park 18th April 2015 </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/6PY1U5/">Walk Woolwich Arsenal to Abbey Wood - 26th April 2015 </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/vQYH1t/">Walk Strethall to Saffron Walden - 16th June 2015 </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/zK674q/">Walk/pre-walk Cutty Sark to London Eye- 25th July 2015 </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/25m2a1/">Northumberland July 2015 </a></li>
+                          <li><a href="https://www.flickr.com/gp/132833839@N02/o4h36D">Harold&lsquo;s Way Oct 2015 </a></li>
+                                             	</ul>
+                    </li>
+                    <li><a href="other.php">Other</a></li>
+                    <li><a href="ulinks.php">Useful Links</a></li>
+                   </ul>
+               </div>
+			   </div>
+             </nav>
+
+
+
+
+    <div id="logo003">
+        <span class="redcolor text-centre">R</span>edbridge
+        <span class="redcolor">R</span>amblers
+    </div>
+
+    <h2 class="text-center">
+        <b>Walks Programme</b>
+    </h2>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+            <p class="text-center">
+                    <a href="walks_getting_there.php">Walks - getting there</a>&nbsp;
+                    <a href="directions.php">Directions</a>&nbsp;
+                    <a href="walkgrades.php">Walk grades</a>
+                </p>
+                <br>
+                <p>Last update: 20/08/2019</p>
+                <p>If this page is not displaying the walks in grid format try <a href="https://redbridgeramblers.org.uk/walks_oldbrowser.php">old browser format</a><p>
+            </div>
+
+        </div>
+
+
+        <br>
+
+</div> <!--end of container -->
+
+
+<div class="wrapper"><div class="grid-container"><div><p><strong>Aug<br>2019</strong></p></div><div></div><div></div><div></div><div><p>Sat<br>24 Aug<br> 10:30<p></div><div><div><p><strong>LONDON</strong></p><p>Miles: 5,  linear, easy</p></div></div><div><p><a href="http://streetmap.co.uk/grid/535000_182700_120" target="_blank" rel="noopener" >TQ_350827</a></p><br><p><a href="http://maps.google.co.uk/?q=51.527083,-0.055324671(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 173</p></div><div><p>Meet 10.30 at Bethnal Green UG Station, past the ticket barrier for a walk through the East End markets to Liverpool Street Station with commentary. Lunch stop in Brick Lane. Drop out opportunities.</p></div><div><p>Sun<br>25 Aug<br> 10:00<p></div><div><div><p><strong>HERTS - South of Wheathampstead</strong></p><p>Miles: 12,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/517700_214000_120" target="_blank" rel="noopener" >TL_177140</a></p><br><p><a href="http://maps.google.co.uk/?q=51.81225,-0.29404776(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 182</p></div><div><p>Meet 09.00 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.00 at Wheathampstead (postcode AL4 8BB). Park at the free car park behind 'The Bull' in East Lane. Lunch stop at Sandridge with choice of three pubs.</p></div><div><p>Tue<br>27 Aug<br> 10:30<p></div><div><div><p><strong>From Weston, Herts</strong></p><p>Miles: 10,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/525900_230100_120" target="_blank" rel="noopener" >TL_259301</a></p><br><p><a href="http://maps.google.co.uk/?q=51.955145,-0.16929296(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 194</p></div><div><p>*** Update 20th Aug 2019 *** Meet at Weston, Herts near the pond in Maiden Street  SG4 7DH
+for a 10.30 start.  Pub stop in Walkern.
+ </p></div><div><p>Sat<br>31 Aug<br> 10:30<p></div><div><div><p><strong>ESSEX</strong></p><p>Miles: 5,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/544900_192500_120" target="_blank" rel="noopener" >TQ_449925</a></p><br><p><a href="http://maps.google.co.uk/?q=51.612688,0.091326117(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Grange Hill UG Station for a walk to Gants Hill UG Station via Fairlop Waters and Valentine's Park. Cafe stop.</p></div><div><p><strong>Sep<br>2019</strong></p></div><div></div><div></div><div></div><div><p>Sun<br>1 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Epping Forest</strong></p><p>Miles: 10,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/542200_195600_120" target="_blank" rel="noopener" >TQ_422956</a></p><br><p><a href="http://maps.google.co.uk/?q=51.641231,0.053616085(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Loughton Station. Pub stop at Upshire.</p></div><div><p>Tue<br>3 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Fields and Forest</strong></p><p>Miles: 11.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/554600_216700_120" target="_blank" rel="noopener" >TL_546167</a></p><br><p><a href="http://maps.google.co.uk/?q=51.82753,0.2420385(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Hatfield Broad Oak (postcode CM22 7HD). If car park full, park in village. Lunch stop at licensed visitor centre.</p></div><div><p>Wed<br>4 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Epping Forest</strong></p><p>Miles: 7,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/539300_194600_120" target="_blank" rel="noopener" >TQ_393946</a></p><br><p><a href="http://maps.google.co.uk/?q=51.63297,0.011337004(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Chingford Station. Coffee stop at High Beach.</p></div><div><p>Sat<br>7 Sep<br> 10:30<p></div><div><div><p><strong>LONDON </strong></p><p>Miles: 4.5,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/533100_181600_120" target="_blank" rel="noopener" >TQ_331816</a></p><br><p><a href="http://maps.google.co.uk/?q=51.517648,-0.083112327(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 173</p></div><div><p>Meet 10.30 at Liverpool Street Station, near statue of refugee children. Circular walk around Spitalfields and Whitechapel, with possible visit to Whitechapel Art Gallery if open.</p></div><div><p>Sat<br>7 Sep<br>  <p></div><div><div><p><strong>To be arranged</strong></p><p>Miles:  ,  , &nbsp;</p></div></div><div><p><a href="http://streetmap.co.uk/grid/500_100_120" target="_blank" rel="noopener" >_</a></p></div><div><p>To be arranged</p></div><div><p>Sun<br>8 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Epping Forest</strong></p><p>Miles: 10.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/541200_198200_120" target="_blank" rel="noopener" >TQ_412982</a></p><br><p><a href="http://maps.google.co.uk/?q=51.664845,0.040223317(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at free car park at Epping Forest Conservation Centre, High Beach (postcode IG10 4AF). Circular walk via Claypit Hill, Upshire, Copped Hall, Ladderstile Farm, Ambresbury Banks and Verderers' Ride. Lunch at 'Forest Gate', Ivy Chimneys.</p></div><div><p>Tue<br>10 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - a walk from Abberton Reservoir</strong></p><p>Miles: 9.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/596300_217800_120" target="_blank" rel="noopener" >TL_963178</a></p><br><p><a href="http://maps.google.co.uk/?q=51.824326,0.84706133(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 184</p></div><div><p>Meet 09.00 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Essex Wildlife Trust car park, Abberton Reservoir (postcode CO2 0EU). Figure of eight walk with pub stop at Hare and Hounds, Birch..</p></div><div><p>Sat<br>14 Sep<br> 10:30<p></div><div><div><p><strong>LONDON</strong></p><p>Miles: 5.5,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/526700_183300_120" target="_blank" rel="noopener" >TQ_267833</a></p><br><p><a href="http://maps.google.co.uk/?q=51.534396,-0.17468874(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at St John's Wood UG Station (Jubilee Line) for a linear walk through Regent's Park, Marylebone, Mayfair, Belgravia and Chelsea, with an unusual tea break stop, finishing at Sloane Square Station.</p></div><div><p>Sun<br>15 Sep<br> 09:00<p></div><div><div><p><strong>EPPING - Epping Forest Centenary Walk</strong></p><p>Miles: 15,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/541900_185700_120" target="_blank" rel="noopener" >TQ_419857</a></p><br><p><a href="http://maps.google.co.uk/?q=51.55235,0.045282902(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Walk starts at junction of Forest Drive and Capel Road, near Manor Park Station at 09.00 The walk can be joined or left at any point along the route. For timings along route, contact leader. Pub stop. Should reach Bell Common, Epping at about 16.30</p></div><div><p>Tue<br>17 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Forest Way Leg 4</strong></p><p>Miles: 12,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/553600_211000_120" target="_blank" rel="noopener" >TL_536110</a></p><br><p><a href="http://maps.google.co.uk/?q=51.776595,0.22501585(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Matching Green (postcode CM17 0QE). Forest Way from Matching Tye to Corringales. Pub stop at Hatfield Broad Oak.</p></div><div><p>Sat<br>21 Sep<br> 10:30<p></div><div><div><p><strong>LONDON - Highams Park to Wood Street</strong></p><p>Miles: 4.5,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/538600_192000_120" target="_blank" rel="noopener" >TQ_386920</a></p><br><p><a href="http://maps.google.co.uk/?q=51.60978,0.000201721(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Highams Park Station (street parking possible in nearby streets, postcode E4 9LB). Linear walk to Wood Street station via Walthamstow Forest, Water works, Gilbert's Slade, Eagle Pond, Hollow Ponds, and Canada Plain.</p></div><div><p>Sun<br>22 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - Chingford</strong></p><p>Miles: 6.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/539200_194600_120" target="_blank" rel="noopener" >TQ_392946</a></p><br><p><a href="http://maps.google.co.uk/?q=51.632995,0.0098930705(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Chingford Station. Park in side streets or free car park on Bury Road (postcode E4 4AZ). Pub stop.</p></div><div><p>Tue<br>24 Sep<br> 10:30<p></div><div><div><p><strong>ESSEX - South Woodham Ferrers</strong></p><p>Miles: 11.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/581800_197300_120" target="_blank" rel="noopener" >TQ_818973</a></p><br><p><a href="http://maps.google.co.uk/?q=51.645105,0.62620407(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 09.15 at Grove Park junction with The Avenue, Wanstead (without  leader) or 10.30 at the car park in Compass Gardens, South Woodham Ferrers (postcode CM3 5GU). Pub stop.</p></div><div><p>Sat<br>28 Sep<br> 10:30<p></div><div><div><p><strong>LONDON - Richmond</strong></p><p>Miles: 6,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/518000_175000_120" target="_blank" rel="noopener" >TQ_180750</a></p><br><p><a href="http://maps.google.co.uk/?q=51.461684,-0.30283309(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 161</p></div><div><p>Meet 10.30 outside Richmond Station. A linear walk finishing at Twickenham, with pub stop at end.</p></div><div><p>Sun<br>29 Sep<br> 10:00<p></div><div><div><p><strong>ESSEX - Hatfield Broad Oak</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/554600_216600_120" target="_blank" rel="noopener" >TL_546166</a></p><br><p><a href="http://maps.google.co.uk/?q=51.826631,0.24199388(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.00 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.00 north of junction between Feathers Hill and Cage End, postcode CM22 7HD. Pub stop.</p></div><div><p><strong>Oct<br>2019</strong></p></div><div></div><div></div><div></div><div><p>Tue<br>1 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX</strong></p><p>Miles: 11.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/564500_208600_120" target="_blank" rel="noopener" >TL_645086</a></p><br><p><a href="http://maps.google.co.uk/?q=51.751941,0.38173266(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Roxwell Village Hall (postcode CM1 4PA). Pub stop at Pleshey.</p></div><div><p>Wed<br>2 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - Barking and Redbridge</strong></p><p>Miles: 5.5,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/544400_184300_120" target="_blank" rel="noopener" >TQ_444843</a></p><br><p><a href="http://maps.google.co.uk/?q=51.539136,0.080741944(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Barking Station near the ticket office. Linear walk through three parks to Gants Hill UG Station, with some commentary. Cafe and pub stop near end, or bring a packed lunch.</p></div><div><p>Sat<br>5 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - Roydon</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/540700_210300_120" target="_blank" rel="noopener" >TL_407103</a></p><br><p><a href="http://maps.google.co.uk/?q=51.773694,0.037881536(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.30 at Roydon Church (postcode CM19 5LW). Figure of eight walk. Pub stop.</p></div><div><p>Sat<br>5 Oct<br> 10:30<p></div><div><div><p><strong>LONDON - Regent's Park and Paddington</strong></p><p>Miles: 6,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/527900_182000_120" target="_blank" rel="noopener" >TQ_279820</a></p><br><p><a href="http://maps.google.co.uk/?q=51.522443,-0.15786887(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 173</p></div><div><p>Meet  10.30 at Baker Street UG Station. Linear walk via Regent's Park and Paddington finishing at Warwick Avenue UG station. Cafe stop.</p></div><div><p>Sun<br>6 Oct<br> 10:30<p></div><div><div><p><strong>LONDON - South</strong></p><p>Miles: 7,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/538000_175900_120" target="_blank" rel="noopener" >TQ_380759</a></p><br><p><a href="http://maps.google.co.uk/?q=51.465253,-0.014763257(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 162</p></div><div><p>Meet  10.30 at Lewisham DLR Station for a walk to Woolwich Arsenal DLR station. Cafe stop. Pub stop at end.</p></div><div><p>Tue<br>8 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - Forest Way Leg 5</strong></p><p>Miles: 12,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/552500_215000_120" target="_blank" rel="noopener" >TL_525150</a></p><br><p><a href="http://maps.google.co.uk/?q=51.812833,0.21084155(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Hatfield Heath (postcode CM22 7FA). Walk to Flitch Way (end of Forest Way). Pub stop at Takeley.</p></div><div><p>Sat<br>12 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - Thorndon Country Park</strong></p><p>Miles: 6.5,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/559300_193000_120" target="_blank" rel="noopener" >TQ_593930</a></p><br><p><a href="http://maps.google.co.uk/?q=51.613293,0.29935344(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 175</p></div><div><p>Meet 10.30 at Brentwood station (postcode CM14 4EW). Break at Countryside Centre - light refreshments available.</p></div><div><p>Sun<br>13 Oct<br> 10:30<p></div><div><div><p><strong>CROYDON - Part of Vanguard Way</strong></p><p>Miles: 12.5,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/533700_164500_120" target="_blank" rel="noopener" >TQ_337645</a></p><br><p><a href="http://maps.google.co.uk/?q=51.363838,-0.080922587(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 161</p></div><div><p>Meet 10.30 at Lloyds Park Tram stop (Addington Line). Trains run from London Bridge every 10 minutes from Platform 5 to East Croydon (approx 12 - 15 minutes journey). Then take the Addington tram from just outside the station to Lloyds Park (5 - 7 minutes). There are public facilities and cafe at Lloyds Park. Late pub stop. Walk will finish at Addington Tram stop to return home.</p></div><div><p>Tue<br>15 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX </strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/551000_229800_120" target="_blank" rel="noopener" >TL_510298</a></p><br><p><a href="http://maps.google.co.uk/?q=51.946208,0.19556869(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 195</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Rickling Green (postcode CB11 3YG). Street parking near to The Cricketers. Pub lunch in Newport.</p></div><div><p>Sat<br>19 Oct<br> 10:30<p></div><div><div><p><strong> LONDON - Forty Hall and Whitewebbs Wood</strong></p><p>Miles: 6,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/531800_197700_120" target="_blank" rel="noopener" >TQ_318977</a></p><br><p><a href="http://maps.google.co.uk/?q=51.662633,-0.095796642(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Gordon Hill station (postcode EN2 0QU). Coffee break at Forty Hall.</p></div><div><p>Sun<br>20 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - London Blind Ramblers walk</strong></p><p>Miles: 5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/539200_194600_120" target="_blank" rel="noopener" >TQ_392946</a></p><br><p><a href="http://maps.google.co.uk/?q=51.632995,0.0098930705(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Chingford Station. Circular walk with lunch stop at High Beach. Volunteers needed to help with either blind or poor sighted people.</p></div><div><p>Tue<br>22 Oct<br> 10:15<p></div><div><div><p><strong>ESSEX - part of Saffron Trail</strong></p><p>Miles: 13,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/552100_234500_120" target="_blank" rel="noopener" >TL_521345</a></p><br><p><a href="http://maps.google.co.uk/?q=51.988133,0.21364039(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 195</p></div><div><p>Meet 9.15 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.15 at Newport Railway Arches off B1383 (postcode CB11 3TH). Circular walk on part of Saffron Trail. Pub stop at Henham.</p></div><div><p>Sat<br>26 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - Hainault Forest Walk</strong></p><p>Miles: 5,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/546500_193200_120" target="_blank" rel="noopener" >TQ_465932</a></p><br><p><a href="http://maps.google.co.uk/?q=51.618564,0.11470968(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Chigwell Row Church (postcode IG7 6EG). Cafe stop.</p></div><div><p>Sun<br>27 Oct<br> 10:00<p></div><div><div><p><strong>LONDON</strong></p><p>Miles: 11,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/518000_175000_120" target="_blank" rel="noopener" >TQ_180750</a></p><br><p><a href="http://maps.google.co.uk/?q=51.461684,-0.30283309(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 161</p></div><div><p>Meet 10.00 at Richmond Station to enjoy autumn colours in Richmond Park, Isabella Plantation and Bushey Park. Lunch stop at Teddington Lock. Drop-out possible after 7 miles at Teddington Station. Finish at Hampton Court Station.</p></div><div><p>Tue<br>29 Oct<br> 10:30<p></div><div><div><p><strong>ESSEX - In Search of David Livingstone</strong></p><p>Miles: 10,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/553400_200800_120" target="_blank" rel="noopener" >TL_534008</a></p><br><p><a href="http://maps.google.co.uk/?q=51.68501,0.21762842(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183 175</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.30 at St Margaret's Church, Stanford Rivers (postcode CM5 9QG). Park near St Margaret's Church off Mutton Row. Pub stop in Chipping Ongar.</p></div><div><p><strong>Nov<br>2019</strong></p></div><div></div><div></div><div></div><div><p>Sat<br>2 Nov<br> 10:30<p></div><div><div><p><strong>LONDON - East</strong></p><p>Miles: 4.5,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/539200_182900_120" target="_blank" rel="noopener" >TQ_392829</a></p><br><p><a href="http://maps.google.co.uk/?q=51.527861,0.0052593656(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 162</p></div><div><p>Meet 10.30 at West Ham station (Memorial Avenue). Linear walk to Royal Albert DLR Station via Greenway and Becton.</p></div><div><p>Sat<br>2 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX - Festival Walk</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/589700_194500_120" target="_blank" rel="noopener" >TQ_897945</a></p><br><p><a href="http://maps.google.co.uk/?q=51.617351,0.73873139(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 176</p></div><div><p>Meet 09.15 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.30 at Canewdon Church (postcode SS4 3PY). River Crouch and Roach Valley walk with pub stop.</p></div><div><p>Sun<br>3 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/548800_238400_120" target="_blank" rel="noopener" >TL_488384</a></p><br><p><a href="http://maps.google.co.uk/?q=52.024065,0.16731205(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 194</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.30 at Littlebury Green (postcode CB11 4XB). Pub stop.</p></div><div><p>Tue<br>5 Nov<br> 10:15<p></div><div><div><p><strong>ESSEX - part of Saffron Trail</strong></p><p>Miles: 10,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/560000_226500_120" target="_blank" rel="noopener" >TL_600265</a></p><br><p><a href="http://maps.google.co.uk/?q=51.914049,0.32486807(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 195</p></div><div><p>Meet 09.00 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.15 at Tilty Church (postcode CM6 2EG). Pub stop at Henham.</p></div><div><p>Wed<br>6 Nov<br> 10:00<p></div><div><div><p><strong>LONDON - Secrets of East London</strong></p><p>Miles: 5,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/533200_181600_120" target="_blank" rel="noopener" >TQ_332816</a></p><br><p><a href="http://maps.google.co.uk/?q=51.517625,-0.081671963(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 173</p></div><div><p>Meet 10.00  at Liverpool Street Station opposite platform 4. Pub/cafe stop.</p></div><div><p>Sat<br>9 Nov<br> 10:30<p></div><div><div><p><strong>LONDON - Fleet of Foot</strong></p><p>Miles: 6,  linear, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/526400_185700_120" target="_blank" rel="noopener" >TQ_264857</a></p><br><p><a href="http://maps.google.co.uk/?q=51.556032,-0.17815036(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 173</p></div><div><p>Meet 10.30  at Hampstead UG Station (Northern line). A linear walk from London's high ground to the heart of the city along the route of one of London's lesser known rivers (river Fleet), finishing at Camden Lock.</p></div><div><p>Sun<br>10 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX </strong></p><p>Miles: 8,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/563100_197800_120" target="_blank" rel="noopener" >TQ_631978</a></p><br><p><a href="http://maps.google.co.uk/?q=51.655328,0.35642147(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 175</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (with leader) or 10.30 at Mountnessing Mill car park (postcode CM15 0UG). Lunch stop in Blackmore.</p></div><div><p>Tue<br>12 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX - Forest and Paths</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/558300_186100_120" target="_blank" rel="noopener" >TQ_583861</a></p><br><p><a href="http://maps.google.co.uk/?q=51.551584,0.28181476(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 175</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Thames Chase Forest Centre car park (postcode RM14 3NS). Small charge at car park. Pub stop.</p></div><div><p>Sat<br>16 Nov<br> 10:30<p></div><div><div><p><strong>LONDON - Crystal Palace</strong></p><p>Miles: 6,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/534100_170500_120" target="_blank" rel="noopener" >TQ_341705</a></p><br><p><a href="http://maps.google.co.uk/?q=51.417663,-0.072916219(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 161</p></div><div><p>Meet  10.30 outside Crystal Palace station. A linear walk along part of the Green Chain finishing at North Dulwich station. Pub stop at end.</p></div><div><p>Sun<br>17 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX - Epping Forest</strong></p><p>Miles: 7,  circular, leisurely</p></div></div><div><p><a href="http://streetmap.co.uk/grid/545500_199000_120" target="_blank" rel="noopener" >TQ_455990</a></p><br><p><a href="http://maps.google.co.uk/?q=51.670937,0.10268577(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Theydon Bois Station (postcode CM16 7HS). Car park at station &pound;3.</p></div><div><p>Tue<br>19 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX </strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/589700_191400_120" target="_blank" rel="noopener" >TQ_897914</a></p><br><p><a href="http://maps.google.co.uk/?q=51.58951,0.73705589(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 176</p></div><div><p>Meet 09.15 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.30 at Stambridge (postcode SS4 2AR). Park in lay-by by village sign. Pub lunch at Canewdon.</p></div><div><p>Sat<br>23 Nov<br> 10:30<p></div><div><div><p><strong>ESSEX </strong></p><p>Miles: 5.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/544900_192500_120" target="_blank" rel="noopener" >TQ_449925</a></p><br><p><a href="http://maps.google.co.uk/?q=51.612688,0.091326117(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at Grange Hill UG Station (Central Line). Moderate walk through Chigwell Row and Hainault Forest with short cafe stop.</p></div><div><p>Sun<br>24 Nov<br> 10:30<p></div><div><div><p><strong>LONDON</strong></p><p>Miles: 11,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/530000_182900_120" target="_blank" rel="noopener" >TQ_300829</a></p><br><p><a href="http://maps.google.co.uk/?q=51.530052,-0.12728532(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet 10.30 at St Pancras International station (Midland Road exit) for a great tree walk through central London. Bring sandwiches for lunch stop in Hyde Park.</p></div><div><p>Tue<br>26 Nov<br> 10:15<p></div><div><div><p><strong>ESSEX - Danbury Woods</strong></p><p>Miles: 11.5,  circular, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/578500_203900_120" target="_blank" rel="noopener" >TL_785039</a></p><br><p><a href="http://maps.google.co.uk/?q=51.705443,0.58193148(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 183</p></div><div><p>Meet 09.30 at Grove Park junction with The Avenue, Wanstead (without leader) or 10.15 at Danbury Common (postcode CM3 4EP). Pub stop at Little Baddow.</p></div><div><p>Sat<br>30 Nov<br> 13:30<p></div><div><div><p><strong>LONDON - Walk to AGM</strong></p><p>Miles: 5,  linear, moderate</p></div></div><div><p><a href="http://streetmap.co.uk/grid/540200_188800_120" target="_blank" rel="noopener" >TQ_402888</a></p><br><p><a href="http://maps.google.co.uk/?q=51.58063,0.022015248(See%20Description%20for%20departure%20details)&amp;z=16&amp;t=k" target="_blank"  rel="noopener" >Satellite</a></p><br><p>Map 174</p></div><div><p>Meet  13.30 at Snaresbrook UG Station for AFTERNOON walk to AGM, through Leyton Flats, Bush Wood and Wanstead Park, with possible stop at Tea Hut, finishing at Wanstead Library for AGM at 16.30.</p></div></div></div>
+
+
+            <script type="application/ld+json">
+                            </script>
+</body>
+
+</html>

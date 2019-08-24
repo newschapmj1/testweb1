@@ -5,7 +5,7 @@
         "Summary": "test1",
         "Detail": "test1 details",
         "Distance": 10,
-        "Grid Ref": "TQ 12345"
+        "GridRef": "TQ 12345"
     },
     {
         "id": 2,
@@ -13,6 +13,6 @@
         "Summary": "test2",
         "Detail": "TEST2 DATA",
         "Distance": 5,
-        "Grid Ref": "TL 123456"
+        "GridRef": "TL 123456"
     }
 ]

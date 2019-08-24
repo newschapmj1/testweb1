@@ -1,0 +1,130 @@
+body { font-family: 'Open Sans',Arial, Helvetica, sans-serif;  font-size: 17px; color: #006633; background-color: #FFFFCC; line-heigh
+145%}
+
+
+table, th, td {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+#header {
+
+	 position: relative;
+	 left:0;
+	 top:0;
+	 z-index:-1;
+}
+
+td {  font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 17px; color: #006633}
+a {  font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 17px; font-style: normal; color: #006633; font-weight: bold}
+a:hover {
+	color: #00CC33;
+}
+
+h1 {font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+h2 {line-height:145%;}
+
+
+/*
+tr:nth-child(even) {
+  background-color: #FFFFCC;
+;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+*/
+
+#textfull 
+	{position: relative;
+ background: #8ec63f;
+height: 80px;
+
+	}
+
+#textleft 
+	{
+	top:0px;
+	left:0px;
+	 background: #ffffff;
+	 height: 80px;
+	position: relative;
+        z-index: 10;
+	}
+
+
+
+#logo1 {
+font-family:Merriweather; font-size: 48px; color:#006633;font-weight:900;
+position: absolute;
+   top: 0px;
+   left: 200px;
+   width: 100%;
+   margin: 0 auto;
+   width: 800px;
+   height: 100px;
+   z-index:1;
+
+}
+
+#logo2 {
+font-family:Merriweather; font-size: 24px; color:#006633;font-weight:900;text-align:centre;
+
+}
+
+#tagline1 {
+font-family:Merriweather; font-size: 36px; color:#C6454D;font-style:italic;font-weight:900;	
+position: absolute;
+   top: 60px;
+   left: 300px;
+   width: 100%;
+   margin: 0 auto;
+   width: 800px;
+   height: 100px;
+   z-index:1;
+
+
+}
+
+.redcolor
+{
+color: #C6454D;
+}
+
+#wrapper {
+	text-align: left;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#leftColumn {
+	float: left;
+	width: 200px;
+	margin-top: 40px;
+	font-size: larger;
+	font-weight: bold;
+}
+#rightColumn {
+	float: right;
+	display: inline;
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logo {
+	height: 106px;
+	padding-bottom: 0px;
+	width: 716px;
+	clear: none;
+	float: none;
+	margin-right: 22px;
+	margin-left: 22px;
+	margin-top: 10px;
+}

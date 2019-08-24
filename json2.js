@@ -14,5 +14,9 @@ request.onload = function() {
   //var obj = JSON.parse(walks);
   console.log(walks[0]);
   console.log(walks[0].Detail);
-  console.log(walks[1].Detail);
+  console.log(walks[0].Summary);
+  console.log(walks[0].Date);
+  console.log(walks[0].Distance);
+  console.log(walks[0].GridRef);
+  //console.log(walks[1].Detail);
 }

@@ -1,0 +1,158 @@
+h1, h2 {font-family: 'Merriweather', serif, Times;}
+h3, h4, h5, h6, p, div {
+    font-family: 'Open Sans', Helvetica, sans-serif, Arial;
+}
+
+
+p {
+  font-size:17px;
+  line-height: 145%;
+}
+
+body {
+  font-size:17px;
+    line-height: 145%;
+    color: #006633; background-color: #FFFFCC;
+    font-family: 'Open Sans', Helvetica, sans-serif, Arial;
+}
+
+
+hr {
+ display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  color: #006633; 
+}
+
+
+/* centre navbar horizontally  -enabled for bs 3.3.2 */
+.navbar-default {background-color:#FFFFCC;}
+
+@media (min-width: 768px){
+    .navbar-default{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        color:#006633;
+        background-color:#FFFFCC;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #C6454D;
+}
+}
+
+
+
+.dropdown-menu {
+background-color:#FFFFCC;
+color:#006633;
+}
+
+.dropdown-menu > li > a { color:#006633;}
+
+.ul {
+  color:#006633;
+}
+.navbar {border:none;}
+.nav > li { color:#006633;}
+
+.navbar-default .navbar-brand  { color:#006633;}
+.navbar-default .navbar-nav > li > a { color:#006633;}
+/* .navbar-header { color:#006633;} */
+
+
+/*  end of section */
+
+
+
+#logo003 {
+font-family:Merriweather; font-size: 18px; color:#006633;font-weight:900;text-align:center;
+
+}
+
+
+
+.redcolor
+{
+color: #C6454D;
+}
+
+/*
+# redbridge specific ends here
+# ------------------------------------------------------------
+*/
+
+
+#logo img {display:block;
+
+      margin-left: auto;
+      margin-right: auto;}
+
+
+#logo2  {margin:0 auto;
+}
+
+
+
+.row {
+  text-align:left;
+}
+
+/*
+.col-sm-3
+{float:right;
+  text-align:right;}
+
+.col-xs-3
+{text-align:right;}
+*/
+
+.col-sm-9
+{text-align:left;}
+
+.col-xs-9
+{text-align:left;}
+
+
+/* Classes  */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*redefines img-responsive
+/*margin: -auto; added to center image */
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin:  0 auto;
+}
+
+/* Galleria CSS starts here */
+/*v2 */
+#gallery{
+  width:100%;
+  margin:0 auto;
+  max-width: 920px;
+}
+
+#galleria{width:100%;margin:0 auto;max-width:920px;}
+
+/*copied from bootstrap */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}

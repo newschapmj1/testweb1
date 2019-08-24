@@ -1,0 +1,95 @@
+/*
+Use with Redbridge Ramblers Site
+v002 Feb 22 2015 */
+
+h1, h2 {font-family: 'Merriweather', serif, Times;}
+h3, h4, h5, h6, p, div  {
+    font-family: 'Open Sans', Helvetica, sans-serif, Arial;
+}
+
+
+p {
+  font-size:17px;
+  line-height: 145%;
+}
+
+body {
+  font-size:17px;
+    line-height: 145%;
+     font-family: 'Open Sans', Helvetica, sans-serif, Arial;
+}
+
+
+/*note custom version of bootstrap sets body color and navbar colors */
+/* centre navbar horizontally */
+@media (min-width: 768px){
+    .navbar-default{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+
+#logo003 {
+font-family:Merriweather; font-size: 18px; color:#006633;font-weight:900;text-align:center;
+
+}
+
+.redcolor
+{
+color: #C6454D;
+}
+
+ul.dropdown-menu
+{font-size:17px;}
+
+#logo img {display:block;
+
+      margin-left: auto;
+      margin-right: auto;}
+
+
+#logo2  {margin:0 auto;
+}
+
+
+
+.row {
+  text-align:left;
+}
+
+
+.col-sm-9
+{text-align:left;}
+
+.col-xs-9
+{text-align:left;}
+
+
+/* Classes  */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*redefines img-responsive
+/*margin: -auto; added to center image */
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin:  0 auto;
+}
+
+/* Galleria CSS starts here */
+/*v2 */
+#gallery{
+  width:100%;
+  margin:0 auto;
+  max-width: 920px;
+}
+
+#galleria{width:100%;margin:0 auto;max-width:920px;}
